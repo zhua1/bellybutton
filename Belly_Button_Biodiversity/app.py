@@ -144,4 +144,4 @@ def bubble(sample):
     return jsonify(trace)
 
 if __name__ == "__main__":
-    app.run(port = 1111, debug = False)
+    app.run()
